@@ -22,7 +22,7 @@ def create_sample_data():
     print("🔄 Generating sample market data...")
     
     # Create 6 months of hourly data
-    dates = pd.date_range('2024-01-01', periods=4320, freq='H')  # 180 days
+    dates = pd.date_range('2026-01-01', periods=4320, freq='H')  # 180 days
     np.random.seed(42)
     
     # Base price pattern (daily + weekly seasonality)
@@ -192,7 +192,7 @@ def demonstrate_pattern_analysis(extreme_events):
     
     print("📅 Seasonal Distribution:")
     for month, count in patterns['seasonal_distribution'].items():
-        month_name = datetime(2024, month, 1).strftime('%B')
+        month_name = datetime(2026, month, 1).strftime('%B')
         print(f"   {month_name}: {count} events")
     
     print("\n🎯 Event Type Distribution:")

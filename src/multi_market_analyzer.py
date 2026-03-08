@@ -238,7 +238,7 @@ if __name__ == "__main__":
     analyzer = MultiMarketAnalyzer()
     
     # Create sample data for multiple markets
-    dates = pd.date_range('2024-01-01', periods=720, freq='H')
+    dates = pd.date_range('2026-01-01', periods=720, freq='H')
     np.random.seed(42)
     
     market_data = {}

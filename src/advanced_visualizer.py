@@ -515,7 +515,7 @@ if __name__ == "__main__":
     visualizer = AdvancedVisualizer()
     
     # Create sample data
-    dates = pd.date_range('2024-01-01', periods=168, freq='H')
+    dates = pd.date_range('2026-01-01', periods=168, freq='H')
     np.random.seed(42)
     
     market_data = {
@@ -526,7 +526,7 @@ if __name__ == "__main__":
     
     # Create sample events
     events_df = pd.DataFrame({
-        'date': pd.date_range('2024-01-01', periods=10, freq='D'),
+        'date': pd.date_range('2026-01-01', periods=10, freq='D'),
         'revenue': np.random.normal(20000, 15000, 10),
         'event_type': np.random.choice(['Price Spike', 'High Volatility', 'Market Stress'], 10)
     })

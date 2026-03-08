@@ -459,7 +459,7 @@ if __name__ == "__main__":
     
     # Create sample event data
     sample_event = {
-        'date': datetime(2024, 7, 15).date(),
+        'date': datetime(2026, 7, 15).date(),
         'revenue': 75000,
         'revenue_per_mw': 750,
         'event_type': 'Price Spike Opportunity',

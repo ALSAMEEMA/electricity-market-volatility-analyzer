@@ -436,7 +436,7 @@ if __name__ == "__main__":
     analytics = PredictiveAnalytics()
     
     # Create sample data
-    dates = pd.date_range('2024-01-01', periods=1000, freq='H')
+    dates = pd.date_range('2026-01-01', periods=1000, freq='H')
     np.random.seed(42)
     
     base_price = 50 + 10 * np.sin(np.arange(1000) * 2 * np.pi / 24)

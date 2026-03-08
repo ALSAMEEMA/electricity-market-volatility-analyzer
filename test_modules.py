@@ -49,7 +49,7 @@ def test_basic_functionality():
         import numpy as np
         from datetime import datetime, timedelta
         
-        dates = pd.date_range('2024-01-01', periods=168, freq='H')  # 1 week
+        dates = pd.date_range('2026-01-01', periods=168, freq='H')  # 1 week
         np.random.seed(42)
         
         base_prices = 50 + 10 * np.sin(np.arange(168) * 2 * np.pi / 24)

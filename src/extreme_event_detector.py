@@ -220,7 +220,7 @@ if __name__ == "__main__":
     detector = ExtremeEventDetector()
     
     # Create sample data
-    dates = pd.date_range('2024-01-01', periods=720, freq='H')
+    dates = pd.date_range('2026-01-01', periods=720, freq='H')
     np.random.seed(42)
     
     # Simulate realistic prices with some extreme days

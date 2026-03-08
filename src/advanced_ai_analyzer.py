@@ -440,7 +440,7 @@ if __name__ == "__main__":
     analyzer = AdvancedAIAnalyzer()
     
     # Create sample data
-    dates = pd.date_range('2024-01-01', periods=168, freq='H')
+    dates = pd.date_range('2026-01-01', periods=168, freq='H')
     prices = 50 + 10 * np.sin(np.arange(168) * 2 * np.pi / 24) + np.random.normal(0, 5, 168)
     market_data = pd.Series(prices, index=dates)
     
